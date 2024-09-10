@@ -4,7 +4,7 @@ const FirstSection = () => {
   return (
     <section className="py-16 text-center bg-gray-50">
       <div className="px-3 py-3 -mb-0.7 mt-7">
-      <label className='font-sans text-center text-black text-opacity-100 border-solid rounded-full text-bold bg-slate-100 leading-border-text'>
+      <label className='font-sans text-center text-black text-opacity-100 border-solid rounded-full  text-bold bg-slate-100 leading-border-text'>
           500k developers 💪
       </label>
       </div>

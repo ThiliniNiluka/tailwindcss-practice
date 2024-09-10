@@ -1,36 +1,3 @@
-// import React from 'react';
-
-// const courses = [
-//   { name: 'Blockchain', count: 7 },
-//   { name: 'Cloud & DevOps', count: 26 },
-//   { name: 'JavaScript', count: 184 },
-//   { name: 'PHP', count: 33 },
-//   { name: 'Ruby', count: 14 },
-//   { name: 'Mobile', count: 26 },
-//   { name: 'Workflow', count: 109 },
-//   { name: 'WordPress', count: 17 },
-//   { name: 'Back End', count: 69 },
-//   { name: 'WordPress', count: 17 },
-//   { name: 'Back End', count: 69 },
-// ];
-
-// const CoursesSection = () => {
-//   return (
-//     <section className="p-8 bg-white"> 
-//       <div className="flex gap-6 ">
-//         {courses.map((course) => (
-//           <div key={course.name} className="p-4 mb-10 text-center bg-gray-100 rounded-lg">
-//             <h3 className="h-10 mt-4 text-sm font-bold border-solid w-30">{course.name}</h3>
-//             <p className="-mt-5 text-sm text-gray-600">{course.count} courses</p>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default CoursesSection;
-
 import React from 'react';
 
 const courses = [

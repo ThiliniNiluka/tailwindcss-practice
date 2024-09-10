@@ -2,7 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return ( 
-    <nav class="flex items-center justify-between px-8 py-2 space-x-16 bg-white shadow-md navbar-container">
+    <nav aria-label="Main navigation" class="flex fixed items-center justify-between w-full z-[10001] px-8 py-2 space-x-16 bg-white ">
+    {/* <nav aria-label="Main navigation" class="fixed top-0 left-0 w-full z-[10001] bg-white"> */}
       <div class="flex items-center space-x-20">
         <div className='ml-32 font-semibold cursor-pointer '>
         <svg viewBox="0 0 123 27" class="fill-current text-black w-[115.5px] opacity-85 h-[24px] mx-auto lg:mx-0">

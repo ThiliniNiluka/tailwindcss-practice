@@ -3,7 +3,6 @@ import React from 'react';
 const Header = () => {
   return ( 
     <nav aria-label="Main navigation" class="flex fixed items-center justify-between w-full z-[10001] px-8 py-2 space-x-16 bg-white ">
-    {/* <nav aria-label="Main navigation" class="fixed top-0 left-0 w-full z-[10001] bg-white"> */}
       <div class="flex items-center space-x-20">
         <div className='ml-32 font-semibold cursor-pointer '>
         <svg viewBox="0 0 123 27" class="fill-current text-black w-[115.5px] opacity-85 h-[24px] mx-auto lg:mx-0">
@@ -109,14 +108,12 @@ const Header = () => {
         </nav>
       </div>
       <div className="flex gap-1 px-28">
-              {/* <label for="default-search" class="mb-2 text-sm font-medium text-white-900 sr-only dark:text-white">Search</label> */}
               <div className="relative ">
                   <div className="absolute inset-y-0 start-0 flex items-center ps-4 mb-1.5">
                       <svg class="w-4 h-4 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                       </svg>
                   </div>
-                  {/* <input type="search" id="default-search" class="block w-full p-1 ps-10 text-sm  rounded-lg bg-gray-50 dark:text-white" placeholder='Search' /> */}
                   <input type="search" id="default-search" className="h-10 text-sm text-center border-solid rounded-lg cursor-pointer hover:bg-slate-100 w-28 leading-border-text ps-8 text-zinc-950" placeholder='Search' />
               </div>
             <button className="items-center w-20 h-10 gap-1 text-center border-solid rounded-lg shadow-inner text-zinc-950 hover:bg-slate-100 leading-border-text">Login</button>

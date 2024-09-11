@@ -35,9 +35,9 @@ const LearningPaths = () => {
         Whether you’re a full-stack developer, designer, or looking to get into AI, we’ve got a path for you.
       </p>
 
-      <div className="grid grid-cols-1 gap-6 cursor-pointer md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 cursor-pointer md:grid-cols-2 lg:grid-cols-4 ">
         {learningPaths.map((path, index) => (
-          <div key={index} className="overflow-hidden bg-white rounded-lg shadow-lg">
+          <div key={index} className="overflow-hidden bg-white rounded-lg shadow-lg cursor-pointer hover:opacity-80">
             <img src={path.image} alt={path.title} className="object-cover w-full h-40" />
             <div className="p-4">
               <p className="mt-3 mb-4 font-medium text-gray-700">Learning Path</p>

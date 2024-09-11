@@ -9,14 +9,14 @@ const FirstSection = () => {
       </label>
       </div>
       <h1 className="mt-5 mb-3 font-sans text-6xl font-bold text-black text-opacity-85">We Develop Elite <br /> Developers</h1>
-      <p className="mb-8 text-lg text-gray-600">
+      <p className="text-3-regular mb-8 text-neutral-12 sm:text-center sm:max-w-[650px] sm:mx-auto">
         Access a library of books and courses on JavaScript, Python, AI, and more!
       </p>
       <div className="flex justify-center mt-10 mb-12 space-x-4">
-        <button className="px-6 py-3 text-white bg-purple-600 rounded-lg hover:bg-purple-700">
+        <button className="px-6 py-3 text-base text-white bg-purple-600 rounded-lg hover:bg-purple-700">
           Start Free Trial
         </button>
-        <button className="px-6 py-3 text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300">
+        <button className="px-6 py-3 font-semibold text-gray-700 rounded-lg bg-blue-50 hover:bg-blue-100">
           Browse Library
         </button>
       </div>

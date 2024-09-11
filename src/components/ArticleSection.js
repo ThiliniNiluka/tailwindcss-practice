@@ -147,7 +147,7 @@ const ArticleSection = () => {
 
         <div className="grid grid-cols-1 gap-8 outline-none md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 focus:outline-none">
           {articles.map((article, index) => (
-            <div key={index} className="overflow-hidden bg-white border border-gray-200 rounded-lg ">
+            <div key={index} className="overflow-hidden bg-white border border-gray-200 rounded-lg cursor-pointer hover:opacity-80 aspect-w-16 aspect-h-9">
               <img src={article.image} alt={article.title} className="object-cover w-full h-48" />
               <div className="p-4">
                 <h3 className="mb-2 text-base font-medium ">{article.title}</h3>

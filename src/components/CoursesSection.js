@@ -81,7 +81,7 @@ const CoursesSection = () => {
         {courses.map((course) => (
           <div
             key={course.name}
-            className="p-4 transition-transform duration-300 transform bg-gray-100 rounded-lg hover:scale-105 hover:bg-gray-200"
+            className="p-4 transition transform translate-x-6 bg-gray-100 rounded-lg hover:scale-105 hover:bg-gray-200"
           >
             <div className="text-4xl mb-7 ">{course.Image}</div>
             <h3 className="justify-start h-5 text-sm leading-3 border-solid w-30">{course.name}</h3>
@@ -94,3 +94,18 @@ const CoursesSection = () => {
 };
 
 export default CoursesSection;
+
+// import React from "react"
+
+// const CoursesSection = () =>{
+//   <div class="flex justify-center -mx-5">
+//     <div class="overflow-x-hidden py-[32px] -my-[32px]">
+//     <div class="flex -ml-2 transform: translate3d(-967.505px, 0px, 0px)"><div class="flex-initial pl-2 transform: translate3d(0px, 0px, 0px)">
+      
+//       </div>
+//     </div>
+//     </div>
+//   </div>
+// }
+
+// export default CoursesSection;

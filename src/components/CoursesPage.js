@@ -149,11 +149,11 @@ const CoursesPage = () => {
 
       <div className="grid justify-center grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 ">
         {courses.map((course, index) => (
-          <div key={index} className="overflow-hidden bg-white rounded-none ">
-            <img src={course.image} alt={course.title} className="object-cover w-full h-48 cursor-pointer hover:bg-white" />
+          <div key={index} className="overflow-hidden bg-white rounded-none cursor-pointer hover:opacity-80">
+            <img src={course.image} alt={course.title} className="object-cover w-full h-48 hover:bg-white" />
             <div className="p-1 font-medium ">
-              <h2 className="text-base cursor-pointer hover:bg-white">{course.category}</h2>
-              <p className="font-normal text-gray-700 cursor-pointer hover:bg-white">{course.title}</p>
+              <h2 className="text-base hover:bg-white">{course.category}</h2>
+              <p className="font-normal text-gray-700 hover:bg-white">{course.title}</p>
             </div>
           </div>
         ))}

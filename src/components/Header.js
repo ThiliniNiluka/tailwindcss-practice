@@ -117,7 +117,7 @@ const Header = () => {
                   <input type="search" id="default-search" className="h-10 text-sm text-center border-solid rounded-lg cursor-pointer hover:bg-slate-100 w-28 leading-border-text ps-8 text-zinc-950" placeholder='Search' />
               </div>
             <button className="items-center w-20 h-10 gap-1 text-center border-solid rounded-lg shadow-inner text-zinc-950 hover:bg-slate-100 leading-border-text">Login</button>
-            <button className="px-4 text-white bg-purple-600 rounded-lg hover:bg-purple-700">Start Free Trial</button>
+            <button className="px-4 font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700">Start Free Trial</button>
       </div>
     </nav>
   );

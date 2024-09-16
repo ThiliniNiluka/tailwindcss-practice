@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return ( 
-    <nav aria-label="Main navigation" class="flex fixed items-center justify-between w-full z-[10001] px-8 py-2 space-x-16 bg-white ">
-      <div class="flex items-center space-x-20">
+    <nav aria-label="Main navigation" class="flex fixed items-center justify-between w-full z-[10001] px-4 py-2 space-x-8 bg-white lg:px-8">
+      <div class="flex items-center space-x-20 lg:space-x-20">
         <div className='ml-32 font-semibold cursor-pointer '>
         <svg viewBox="0 0 123 27" class="fill-current text-black w-[115.5px] opacity-85 h-[24px] mx-auto lg:mx-0">
             <title className='mr-20'>SitePoint</title>
@@ -12,12 +12,12 @@ const Header = () => {
             </svg>
         </div>
         <nav className="hidden px-1 space-x-1 font-sans text-sm font-semibold md:flex">
-          <a href="#premium" className="w-20 h-10 gap-1 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-text">Premium</a>
-          <a href="#forum" className="w-20 h-10 gap-1 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-textt">Forum</a>
-          <a href="#developer Jobs" className="w-32 h-10 gap-1 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-text t">Developer Jobs</a>
-          <a href="#pricing" className="w-20 h-10 gap-1 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-textt">Pricing</a>
+          <a href="#premium" className="w-20 h-10 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-text">Premium</a>
+          <a href="#forum" className="w-20 h-10 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-textt">Forum</a>                                                
+          <a href="#developer Jobs" className="w-32 h-10 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-text t">Developer Jobs</a>
+          <a href="#pricing" className="w-20 h-10 pt-2 text-center border-solid rounded-lg hover:bg-slate-100 opacity-85 leading-border-textt">Pricing</a>
           <div className="relative inline-flex dropdown group">
-            <button id="dropdown-hover" type="button" data-target="dropdown-with-icon" class="py-3  px-0.5s gap-2 opacity-85 dropdown-toggle flex justify-center items-center border-solid hover:bg-slate-100 mr-9rem text-sm bg-grey rounded-lg cursor-pointer font-semibold text-center w-20 h-10 text-zinc-950 -mt-0.5 "> Blog <svg class="dropdown-open:rotate-180 w-3 h-5 text-neutral-500 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button id="dropdown-hover" type="button" data-target="dropdown-with-icon" className="py-3 px-2 gap-2 opacity-85 dropdown-toggle flex justify-center items-center border-solid hover:bg-slate-100 mr-9rem text-sm bg-grey rounded-lg cursor-pointer font-semibold text-center w-20 h-10 text-zinc-950 -mt-0.5 "> Blog <svg class="transform group-hover:rotate-180 w-3 h-5 text-neutral-500 ml-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
               </svg>
               </button>
@@ -107,17 +107,17 @@ const Header = () => {
         </div>
         </nav>
       </div>
-      <div className="flex gap-1 px-28">
+      <div className="flex gap-1 px-8 md:px-28">
               <div className="relative ">
                   <div className="absolute inset-y-0 start-0 flex items-center ps-4 mb-1.5">
                       <svg class="w-4 h-4 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                       </svg>
                   </div>
-                  <input type="search" id="default-search" className="h-10 text-sm text-center border-solid rounded-lg cursor-pointer hover:bg-slate-100 w-28 leading-border-text ps-8 text-zinc-950" placeholder='Search' />
+                  <input type="search" id="default-search" className="h-10 pl-8 text-sm text-center border-solid rounded-lg cursor-pointer hover:bg-slate-100 w-28 leading-border-text text-zinc-950" placeholder='Search' />
               </div>
-            <button className="items-center w-20 h-10 gap-1 text-center border-solid rounded-lg shadow-inner text-zinc-950 hover:bg-slate-100 leading-border-text">Login</button>
-            <button className="px-4 font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700">Start Free Trial</button>
+            <button className="items-center w-20 h-10 text-center border-solid rounded-lg shadow-inner text-zinc-950 hover:bg-slate-100">Login</button>
+            <button className="px-4 py-2 font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700">Start Free Trial</button>
       </div>
     </nav>
   );

@@ -29,13 +29,13 @@ const learningPaths = [
 
 const LearningPaths = () => {
   return (
-    <div className="p-40 py-0.5 ">
-      <h2 className="mb-4 text-4xl font-bold text-center text-black/85">For all learning paths</h2>
+    <div className="sm:p-8 lg:p-40 py-0.5">
+      <h2 className="mb-4 text-2xl font-bold text-center sm:text-3xl lg:text-4xl text-black/85">For all learning paths</h2>
       <p className="mb-10 text-center text-gray-600">
         Whether you’re a full-stack developer, designer, or looking to get into AI, we’ve got a path for you.
       </p>
 
-      <div className="grid grid-cols-1 gap-6 cursor-pointer md:grid-cols-2 lg:grid-cols-4 ">
+      <div className="grid grid-cols-1 gap-6 cursor-pointer ms:grid-cols-2 lg:grid-cols-4 ">
         {learningPaths.map((path, index) => (
           <div key={index} className="overflow-hidden bg-white rounded-lg shadow-lg cursor-pointer hover:opacity-80">
             <img src={path.image} alt={path.title} className="object-cover w-full h-40" />
@@ -56,7 +56,7 @@ const LearningPaths = () => {
       </div>
 
       <div className="flex justify-center">
-        <button className="px-6 py-3 mt-10 mb-20 text-black rounded-lg bg-white-600 hover:bg-blue-100">
+        <button className="px-6 py-3 mt-20 text-black rounded-lg bg-white-600 hover:bg-blue-100">
           Browse Premium Library
         </button>
       </div>

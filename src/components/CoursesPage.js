@@ -119,7 +119,7 @@ const CoursesPage = () => {
     )
   };
   return (
-    <div className="container py-56 p-44">
+    <div className="container py-56 p-44 ">
       <h1 className="mb-4 text-4xl font-bold text-center text-black text-opacity-90">Explore over 700 courses</h1>
       <p className="mb-8 text-[18px] text-center text-gray-600">
         Browse our comprehensive collection of courses, books, and tutorials on a wide range of development and design topics.
@@ -130,7 +130,7 @@ const CoursesPage = () => {
           
           <button
             key={index}
-            className="flex gap-1 px-3 py-1 text-sm font-medium text-gray-700 border border-gray-300 rounded-full hover:bg-gray-200"
+            className="flex gap-1 px-3 py-1 text-sm font-medium text-gray-700 border border-gray-300 rounded-full hover:bg-gray-200 lg:px-4 lg:py-2"
           >
           {CategoryIcons[category] ||(
             <svg
@@ -159,7 +159,7 @@ const CoursesPage = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mt-10 -mb-0.5">
+      <div className="flex justify-center mt-16 lg:-mb-80">
         <button className="px-6 py-3 text-black rounded-lg bg-white-600 hover:bg-blue-100 hover:text-blue">
           Browse Premium Library
         </button>

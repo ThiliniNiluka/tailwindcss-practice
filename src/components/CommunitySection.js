@@ -10,7 +10,7 @@ const CommunitySection = () => {
     },
     {
       username: '4b443Isaef',
-      title: 'What is causing the <span> element to break the text onto a new line, and how can th...',
+      title: 'What is causing the <span> element',
       timeAgo: '6 hours ago',
       replies: 2,
     },
@@ -41,14 +41,14 @@ const CommunitySection = () => {
   ];
 
   return (
-    <div className="px-8 bg-white py-14">
-      <div className="max-w-6xl mx-auto max-h-0.5xl ">
+    <div className="px-8 py-8 bg-white sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
         <div className="mb-8 text-center">
-          <h2 class="text-4xl font-bold not-italic tracking-tight leading-10 mt-0.5 mb-4 text-zinc-900">Join our community of developers</h2>
-          <p className="mt-2 text-gray-600">Create a free account and join our community today!</p>
+          <h2 class="md:text-4xl sm:text-3xl font-bold not-italic tracking-tight leading-10 mt-0.5 mb-4 text-zinc-900">Join our community of developers</h2>
+          <p className="mt-2 mb-10 text-gray-600 sm:text-lg">Create a free account and join our community today!</p>
         </div>
 
-        <div className="space-y-4 hover:bg-grey-200 ">
+        <div className="space-y-3 hover:bg-grey-200 ">
           {posts.map((post, index) => (
             <div
               key={index}

@@ -2,8 +2,7 @@ import React from 'react';
 
 const Subscription = () => {
   return (
-    <div className="px-8 bg-gray-900 py-36">
-      <div class="relative overflow-hidden isolate bg-neutral-inverse-1">
+    <div className="relative overflow-hidden isolate bg-gray-900 sm:px-15 sm:py-24 lg:py-40  bg-neutral-inverse-1">
       <svg xmlns="http://www.w3.org/2000/svg" width="17.12500rem" height="25.12500rem" fill="none" class="absolute bottom-0 hidden lg:block -z-10" viewBox="0 0 274 402">
       <path fill="url(#paint0_linear_1288_14088)" fill-opacity="0.15" d="M51.397 4.16a40.97 40.97 0 00-34.794 0L-142.71 78.877a40.972 40.972 0 00-22.493 27.745l-38.943 166.166a40.971 40.971 0 008.191 35.305l109.625 133.877a40.97 40.97 0 0031.699 15.014h177.264a40.971 40.971 0 0031.699-15.014l109.625-133.877a40.971 40.971 0 008.191-35.305l-38.943-166.166a40.97 40.97 0 00-22.493-27.745L51.397 4.16z"></path><defs><linearGradient id="paint0_linear_1288_14088" x1="34" x2="34" y1="-4" y2="481" gradientUnits="userSpaceOnUse"><stop stop-color="#FBFBFB"></stop><stop offset="1" stop-color="#FBFBFB" stop-opacity="0"></stop></linearGradient></defs>
       </svg>
@@ -19,23 +18,23 @@ const Subscription = () => {
       <svg xmlns="http://www.w3.org/2000/svg" width="15.8125rem" height="15.125rem" fill="none" class="lg:hidden absolute -top-[9.4375rem] -right-[12.370625rem] -z-10" viewBox="0 0 253 242">
       <path fill="url(#paint0_linear_1789_43771)" fill-opacity="0.15" d="M143.869 4.127a40.97 40.97 0 00-34.731 0L40.442 36.275a40.97 40.97 0 00-22.519 27.74L1.395 134.382a40.97 40.97 0 008.214 35.358l46.863 57.105a40.968 40.968 0 0031.67 14.979h76.722a40.97 40.97 0 0031.671-14.979l46.863-57.105a40.974 40.974 0 008.214-35.358l-16.528-70.369a40.971 40.971 0 00-22.519-27.74L143.869 4.128z"></path><defs><linearGradient id="paint0_linear_1789_43771" x1="126.503" x2="126.503" y1="-4" y2="254.632" gradientUnits="userSpaceOnUse"><stop stop-color="#FBFBFB"></stop><stop offset="1" stop-color="#FBFBFB" stop-opacity="0"></stop></linearGradient></defs>
       </svg>
-        <h2 className="mb-10 font-sans text-4xl font-bold text-center text-white">
-          Get the freshest news and resources for <br /> developers, designers and digital creators in <br />your inbox each week
+        <h2 className="mb-10 text-2xl font-bold text-center text-white sm:text-3xl lg:text-4xl">
+          Get the freshest news and resources for <br className="hidden sm:inline-block"/> developers, designers and digital creators in <br className="hidden sm:inline-block" />your inbox each week
         </h2>
 
-        <div className="flex items-center justify-center gap-1 mt-6">
+        <div className="flex flex-col items-center justify-center mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-2">
           <input
             type="email"
             placeholder="Enter your email"
             required="Please fill out this filed"
-            className="w-64 px-4 py-2 border-solid rounded-md border-3 focus:outline-offset-1 focus:ring focus:ring-gray-900"
+            className="w-full max-w-xs px-4 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
-          <button className="px-4 py-2 font-semibold text-white bg-purple-700 rounded-md hover:bg-violet-600 active:bg-blue-700 focus:ring focus:ring-violet-300">
+          
+          <button className="w-full max-w-xs px-4 py-2 text-sm font-semibold text-white bg-purple-700 rounded-md hover:bg-violet-600 active:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-violet-300 sm:w-auto">
             Subscribe
           </button>
         </div>
       </div>
-    </div>
   );
 };
 

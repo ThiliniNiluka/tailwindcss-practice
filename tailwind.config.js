@@ -23,6 +23,9 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
+      translate: {
+        '-657': '-657px',  // Define custom translation value
+      },
       // screens: {
       //   'sm': {'min': '640px', 'max': '767px'},
       //   // => @media (min-width: 640px and max-width: 767px) { ... }
@@ -39,17 +42,28 @@ module.exports = {
       //   '2xl': {'min': '1536px'},
       //   // => @media (min-width: 1536px) { ... }
       // },
+      // screens: {
+      //   'tablet': '640px',
+      //   // => @media (min-width: 640px) { ... }
+  
+      //   'laptop': '1024px',
+      //   // => @media (min-width: 1024px) { ... }
+  
+      //   'desktop': '1280px',
+      //   // => @media (min-width: 1280px) { ... }
+      // },
+      // spacing: {
+      //   '2.5rem': '2.5rem', // Extend spacing scale for `gap-y-10` and `mb-10`
+      // },
+      // gridTemplateColumns: {
+      //   // Extend grid columns to include 3 columns layout as in `grid-cols-3`
+      //   '3': 'repeat(3, minmax(0, 1fr))',
+      // },
       screens: {
-        'tablet': '640px',
-        // => @media (min-width: 640px) { ... }
-  
-        'laptop': '1024px',
-        // => @media (min-width: 1024px) { ... }
-  
-        'desktop': '1280px',
-        // => @media (min-width: 1280px) { ... }
+        'xs': '475px', // Custom breakpoint for smaller screens
       },
-    } 
+    },
   },
+  variants: {},
   plugins: [],
 }

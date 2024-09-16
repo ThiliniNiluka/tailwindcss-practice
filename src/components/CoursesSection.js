@@ -76,16 +76,16 @@ const courses = [
 
 const CoursesSection = () => {
   return (
-    <section className="p-8 bg-white">
-      <div className="box-border flex flex-wrap gap-6">
+    <section className="p-4 bg-white sm:p-8 ">
+      <div className="box-border flex flex-wrap justify-center gap-4 sm:gap-6 md:justify-start">
         {courses.map((course) => (
           <div
             key={course.name}
-            className="p-4 transition transform translate-x-6 bg-gray-100 rounded-lg hover:scale-105 hover:bg-gray-200"
+            className="w-full sm:w-[calc(10%-1.5rem)] lg:w-[calc(10%-1.5rem)] md:w-[calc(33%-1.5rem)] xl:w-[calc(10%-1.5rem)] p-4 transition transform bg-gray-100 rounded-lg hover:scale-105 hover:bg-gray-200"
           >
-            <div className="text-4xl mb-7 ">{course.Image}</div>
-            <h3 className="justify-start h-5 text-sm leading-3 border-solid w-30">{course.name}</h3>
-            <p className="-mt-1 text-xs text-gray-600 mb-50">{course.count} courses</p>
+            <div className="mb-4 text-4xl">{course.Image}</div>
+            <h3 className="text-sm font-medium">{course.name}</h3>
+            <p className="text-xs text-gray-600">{course.count} courses</p>
           </div>
         ))}
       </div>
@@ -94,18 +94,3 @@ const CoursesSection = () => {
 };
 
 export default CoursesSection;
-
-// import React from "react"
-
-// const CoursesSection = () =>{
-//   <div class="flex justify-center -mx-5">
-//     <div class="overflow-x-hidden py-[32px] -my-[32px]">
-//     <div class="flex -ml-2 transform: translate3d(-967.505px, 0px, 0px)"><div class="flex-initial pl-2 transform: translate3d(0px, 0px, 0px)">
-      
-//       </div>
-//     </div>
-//     </div>
-//   </div>
-// }
-
-// export default CoursesSection;

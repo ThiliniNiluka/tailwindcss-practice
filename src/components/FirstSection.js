@@ -8,7 +8,7 @@ const FirstSection = () => {
           500k developers 💪
       </label>
       </div>
-      <h1 className="mt-5 mb-3 font-sans text-6xl font-bold text-black text-opacity-85">We Develop Elite <br /> Developers</h1>
+      <h1 className="mt-5 mb-3 font-sans text-3xl font-bold text-black sm:text-4xl md:text-6xl text-opacity-85">We Develop Elite <br /> Developers</h1>
       <p className="text-3-regular mb-8 text-neutral-12 sm:text-center sm:max-w-[650px] sm:mx-auto">
         Access a library of books and courses on JavaScript, Python, AI, and more!
       </p>
